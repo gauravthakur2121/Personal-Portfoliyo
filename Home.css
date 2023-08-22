@@ -1,0 +1,113 @@
+.content p{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.content h1{
+    color: yellowgreen;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.btn-contact{
+    width: 120px;
+    height: 40px;
+    border: 1px solid yellow;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.btn-project{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.btn-contact:hover{
+    cursor: pointer;
+    background-color: blue;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+}
+.btn-project:hover{
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+    
+    
+}
+.left-section{
+    padding: 60px;
+    flex-direction: column;
+    
+}
+.left-section p{
+    font-size: 15px;
+    font-weight: 700;
+    
+    
+}
+.icons-home{
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 15px;
+}
+.icons-home i:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 10px #0ef;
+
+}
+.home-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #0ef;
+    color: #081b29;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.home-btn:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 30px cyan, 0 0 90px cyan, 0 0 120px cyan;
+    
+
+
+}
+.img-my{
+    width: 380px;
+    height: 430px;
+
+    
+
+}
+.img-my:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 30px cyan, 0 0 90px cyan, 0 0 120px cyan;
+    
+         
+
+
+}
+.right-section2 p{
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.right-section2 h1{
+    color: yellowgreen;
+    font-weight: 800;
+}
+
+@media (max-width:768px){
+    .map-1{
+        width: 100%;
+    }
+}
+         
+
+
+
